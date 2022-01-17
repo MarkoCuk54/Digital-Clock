@@ -3,7 +3,7 @@
 Intro
 -----
 This is a code for a simple  **digital clock** made in javascript 
-with help of the **HTML**  and **CSS**.  
+with help of  **HTML**  and **CSS**.  
 
 
 
