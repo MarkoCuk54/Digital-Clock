@@ -1,8 +1,3 @@
-var today = new Date();
-
-
-setInterval(displayTime, 1000);
-
 
 //time
 function displayTime() {
@@ -18,11 +13,16 @@ function displayTime() {
 
 }
 
-
 // date
+function displayDate(){
+  var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 date = dd + '.' + mm + '.' + yyyy;
-
 document.getElementById("date").innerHTML = date;
+};
+
+
+setInterval(displayTime, 1000);
+setInterval(displayDate, 1000);
