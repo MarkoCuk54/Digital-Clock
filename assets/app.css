@@ -1,0 +1,6 @@
+body{
+  background-image: url("/assets/wallpaper.jpg");
+  background-color: #cccccc;
+   background-size: cover;
+   backdrop-filter: blur(5px);
+}
